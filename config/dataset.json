@@ -1,0 +1,13 @@
+{
+    "haha": {
+        "2021-es": {
+            "datasetClass": "DatasetHaha",
+            "tasks": {
+                "task-1": {"label": "label", "scoring": "val_f1_score", "f1_score_scheme": "micro"},
+                "task-2": {"label": "humor_rating", "type": "regression"},
+                "task-3": {"label": "humor_mechanism", "scoring": "val_f1_score", "f1_score_scheme": "macro"},
+                "task-4": {"label": "humor_target", "scoring": "val_f1_score", "f1_score_scheme": "macro", "type": "classification"}
+            }
+        }
+    }
+}
